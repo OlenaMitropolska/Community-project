@@ -19,14 +19,31 @@ body {
     background-color: white;
     width: 85%;
     height: 80%;
+    font-size: 16px;
+    max-height: fit-content;
     border-radius: 5px;
     box-shadow: 1px 1px 10px hsl(218, 22%, 67%);
 }
 .top {
-background-color: beige;
-height: 35%;
+background-color: white;
+/* height: 35%; */
+min-height: fit-content;
 border-radius: 5px 5px 0 0;
-
+padding: 30px 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+line-height: 1.6;
+}
+.top h3 {
+    color: hsl(179, 62%, 43%);
+}
+.top_one {
+color: hsl(71, 73%, 54%);
+font-size: bold;
+}
+.top_two {
+color: hsl(218, 22%, 67%);
 }
 
 .middle {
